@@ -1,0 +1,268 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "addedProducts": {
+      "type": "array",
+      "items": {}
+    },
+    "currentWarehouseTab": {
+      "type": "integer"
+    },
+    "deliveryNotes": {
+      "type": "null"
+    },
+    "draftNumber": {
+      "type": "null"
+    },
+    "draftStatus": {
+      "type": "string"
+    },
+    "merchantCode": {
+      "type": "string"
+    },
+    "merchantName": {
+      "type": "string"
+    },
+    "notAllocatedProducts": {
+      "type": "array",
+      "items": {}
+    },
+    "notEligibleInAnyWarehouse": {
+      "type": "array",
+      "items": {}
+    },
+    "newNotEligibleInAnyWarehouse": {
+      "type": "array",
+      "items": {}
+    },
+    "potentialInboundFee": {
+      "type": "null"
+    },
+    "regionCode": {
+      "type": "string"
+    },
+    "regionName": {
+      "type": "string"
+    },
+    "removedProducts": {
+      "type": "array",
+      "items": {}
+    },
+    "selectedProducts": {
+      "type": "object",
+      "properties": {
+        "FBB-60021-03209-00001": {
+          "type": "object",
+          "properties": {
+            "blibliSku": {
+              "type": "string"
+            },
+            "categoryHierarchy": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "categoryName": {
+              "type": "string"
+            },
+            "confirmedQuantity": {
+              "type": "null"
+            },
+            "itemCode": {
+              "type": "string"
+            },
+            "itemName": {
+              "type": "string"
+            },
+            "packageWeight": {
+              "type": "number"
+            },
+            "productItemHeight": {
+              "type": "number"
+            },
+            "productItemLength": {
+              "type": "number"
+            },
+            "productItemWidth": {
+              "type": "number"
+            },
+            "proposedQuantity": {
+              "type": "integer"
+            },
+            "recommendedQuantity": {
+              "type": "null"
+            },
+            "recommendedQuantityErrorCode": {
+              "type": "null"
+            }
+          },
+          "required": [
+            "blibliSku",
+            "categoryHierarchy",
+            "categoryName",
+            "confirmedQuantity",
+            "itemCode",
+            "itemName",
+            "packageWeight",
+            "productItemHeight",
+            "productItemLength",
+            "productItemWidth",
+            "proposedQuantity",
+            "recommendedQuantity",
+            "recommendedQuantityErrorCode"
+          ]
+        }
+      },
+      "required": [
+        "FBB-60021-03209-00001"
+      ]
+    },
+    "shippingDetails": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "emergencyContactEmail": {
+              "type": "string"
+            },
+            "emergencyContactNumber": {
+              "type": "string"
+            },
+            "pickupPointAddress": {
+              "type": "string"
+            },
+            "pickupPointCode": {
+              "type": "string"
+            },
+            "pickupPointName": {
+              "type": "string"
+            },
+            "preferredTimeSchedules": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "preferredDate": {
+                      "type": "string"
+                    },
+                    "preferredTime": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "preferredDate",
+                    "preferredTime"
+                  ]
+                }
+              ]
+            },
+            "sellerPicName": {
+              "type": "string"
+            },
+            "sellerPicPhoneNumber": {
+              "type": "string"
+            },
+            "shippingType": {
+              "type": "string"
+            },
+            "warehouseCode": {
+              "type": "string"
+            },
+            "warehouseName": {
+              "type": "string"
+            },
+            "warehouseAddress": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "emergencyContactEmail",
+            "emergencyContactNumber",
+            "pickupPointAddress",
+            "pickupPointCode",
+            "pickupPointName",
+            "preferredTimeSchedules",
+            "sellerPicName",
+            "sellerPicPhoneNumber",
+            "shippingType",
+            "warehouseCode",
+            "warehouseName",
+            "warehouseAddress"
+          ]
+        }
+      ]
+    },
+    "userType": {
+      "type": "string"
+    },
+    "warehouseAllocations": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "selectedProducts": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "warehouseAddress": {
+              "type": "string"
+            },
+            "warehouseCode": {
+              "type": "string"
+            },
+            "warehouseName": {
+              "type": "string"
+            },
+            "warehouseRank": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "selectedProducts",
+            "warehouseAddress",
+            "warehouseCode",
+            "warehouseName",
+            "warehouseRank"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "addedProducts",
+    "currentWarehouseTab",
+    "deliveryNotes",
+    "draftNumber",
+    "draftStatus",
+    "merchantCode",
+    "merchantName",
+    "notAllocatedProducts",
+    "notEligibleInAnyWarehouse",
+    "newNotEligibleInAnyWarehouse",
+    "potentialInboundFee",
+    "regionCode",
+    "regionName",
+    "removedProducts",
+    "selectedProducts",
+    "shippingDetails",
+    "userType",
+    "warehouseAllocations"
+  ]
+}

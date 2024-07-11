@@ -1,0 +1,149 @@
+{
+
+  "addedProducts": [
+
+  ],
+
+  "currentWarehouseTab": 0,
+
+  "deliveryNotes": null,
+
+  "draftNumber": null,
+
+  "draftStatus": "SELECT_SHIPMENT",
+
+  "merchantCode": "BLF-60033",
+
+  "merchantName": "BLF-60033",
+
+  "notAllocatedProducts": [
+
+  ],
+
+  "notEligibleInAnyWarehouse": [
+
+  ],
+
+  "newNotEligibleInAnyWarehouse": [
+
+  ],
+
+  "potentialInboundFee": null,
+
+  "regionCode": "BAN-001",
+
+  "regionName": "West Java",
+
+  "removedProducts": [
+
+  ],
+
+  "selectedProducts": {
+
+    "FBB-60021-03209-00001": {
+
+      "blibliSku": "BLF-60033-00001-00001",
+
+      "categoryHierarchy": [
+
+        "AN-1000028",
+
+        "HA-1000067",
+
+        "HA-1000066"
+
+      ],
+
+      "categoryName": "Android",
+
+      "confirmedQuantity": null,
+
+      "itemCode": "MTA-5429234-00001",
+
+      "itemName": "testing FBB New Product CC BLACK",
+
+      "packageWeight": 0.1,
+
+      "productItemHeight": 30.0,
+
+      "productItemLength": 30.0,
+
+      "productItemWidth": 20.0,
+
+      "proposedQuantity": 1,
+
+      "recommendedQuantity": null,
+
+      "recommendedQuantityErrorCode": null
+
+    }
+
+  },
+
+  "shippingDetails": [
+
+    {
+
+      "emergencyContactEmail": "sakthi@gmail.com",
+
+      "emergencyContactNumber": "4998158156",
+
+      "pickupPointAddress": "",
+
+      "pickupPointCode": "",
+
+      "pickupPointName": "",
+
+      "preferredTimeSchedules": [
+
+        {
+
+          "preferredDate": "2024-07-11T01:16:25.474Z",
+
+          "preferredTime": "09:25"
+
+        }
+
+      ],
+
+      "sellerPicName": "sakthi.samyuktha@gdn-commerce.com",
+
+      "sellerPicPhoneNumber": "9012732163",
+
+      "shippingType": "SHIPPED_BY_MERCHANT",
+
+      "warehouseCode": "HUB-0000000001",
+
+      "warehouseName": "BDG E - Bandung Kiaracondong",
+
+      "warehouseAddress": "Jl. Ibrahim Adjie No.338, Kelurahan Binong, Kecamatan Batununggal, Kota Bandung Kel. Cisaranten Wetan, Kec. Cinambo, Kota Bandung"
+
+    }
+
+  ],
+
+  "userType": "INTERNAL",
+
+  "warehouseAllocations": [
+
+    {
+
+      "selectedProducts": [
+
+        "BLF-60033-00001-00001"
+
+      ],
+
+      "warehouseAddress": "Jl. Ibrahim Adjie No.338, Kelurahan Binong, Kecamatan Batununggal, Kota Bandung Kel. Cisaranten Wetan, Kec. Cinambo, Kota Bandung",
+
+      "warehouseCode": "HUB-0000000001",
+
+      "warehouseName": "BDG E - Bandung Kiaracondong",
+
+      "warehouseRank": 1
+
+    }
+
+  ]
+
+}

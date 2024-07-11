@@ -1,0 +1,160 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "integer"
+    },
+    "status": {
+      "type": "string"
+    },
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "productName": {
+              "type": "string"
+            },
+            "itemName": {
+              "type": "string"
+            },
+            "itemCode": {
+              "type": "string"
+            },
+            "packageWeight": {
+              "type": "number"
+            },
+            "productItemWidth": {
+              "type": "number"
+            },
+            "productItemLength": {
+              "type": "number"
+            },
+            "productItemHeight": {
+              "type": "number"
+            },
+            "blibliSku": {
+              "type": "string"
+            },
+            "productSku": {
+              "type": "string"
+            },
+            "categoryName": {
+              "type": "string"
+            },
+            "categoryCode": {
+              "type": "string"
+            },
+            "totalStock": {
+              "type": "integer"
+            },
+            "totalReservedStock": {
+              "type": "integer"
+            },
+            "totalUnsellableStock": {
+              "type": "integer"
+            },
+            "sellingUnitPrice": {
+              "type": "number"
+            },
+            "productDetailPage": {
+              "type": "string"
+            },
+            "proposedQuantity": {
+              "type": "integer"
+            },
+            "imageUrl": {
+              "type": "string"
+            },
+            "isProductFbb": {
+              "type": "boolean"
+            },
+            "sellerProductDetailPage": {
+              "type": "string"
+            },
+            "isDisabled": {
+              "type": "boolean"
+            },
+            "errorMessage": {
+              "type": "string"
+            },
+            "halalStatus": {
+              "type": "string"
+            },
+            "categoryHierarchy": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          "required": [
+            "productName",
+            "itemName",
+            "itemCode",
+            "packageWeight",
+            "productItemWidth",
+            "productItemLength",
+            "productItemHeight",
+            "blibliSku",
+            "productSku",
+            "categoryName",
+            "categoryCode",
+            "totalStock",
+            "totalReservedStock",
+            "totalUnsellableStock",
+            "sellingUnitPrice",
+            "productDetailPage",
+            "proposedQuantity",
+            "imageUrl",
+            "isProductFbb",
+            "sellerProductDetailPage",
+            "isDisabled",
+            "errorMessage",
+            "halalStatus",
+            "categoryHierarchy"
+          ]
+        }
+      ]
+    },
+    "paging": {
+      "type": "object",
+      "properties": {
+        "page": {
+          "type": "integer"
+        },
+        "total_page": {
+          "type": "integer"
+        },
+        "item_per_page": {
+          "type": "integer"
+        },
+        "total_item": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "page",
+        "total_page",
+        "item_per_page",
+        "total_item"
+      ]
+    }
+  },
+  "required": [
+    "code",
+    "status",
+    "data",
+    "paging"
+  ]
+}
