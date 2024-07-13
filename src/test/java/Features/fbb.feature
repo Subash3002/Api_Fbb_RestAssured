@@ -3,6 +3,7 @@ Feature: Api Testing for Fbb
     Given the user access to "http://fbb-core.qa2-sg.cld/api"
     When the user hits the api with get method with endpoint "/v3/products/revamp" with parameters "BLF-60033" and "BLF-60033-00001-00001"
     Then the user should get response 200
+    And the user should see the product details
 
   Scenario:Adding a new consignment
     Given the user access to "http://fbb-core.qa2-sg.cld/api"
